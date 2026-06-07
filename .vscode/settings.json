@@ -1,0 +1,15 @@
+{
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar",
+    "mysql-connector-j-9.7.0.jar"
+  ],
+  "task.allowAutomaticTasks": true,
+  "debug.openDebug": "neverOpen",
+  "terminal.integrated.inheritEnv": false,
+  "tasks": {
+    "label": "lint on open",
+    "type": "shell",
+    "command": "npm run lint",
+    "runOn": "folderOpen"
+  }
+}
